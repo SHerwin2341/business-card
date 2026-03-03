@@ -4,18 +4,19 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
       <title>JD's Business Card</title>
     </head>
 
     <body>
       <main>
-        <article aria-label="JD's Business Card">
+        <article class="business-card" aria-label="JD's Business Card">
 
-           <img src="#" alt="Picture of Jamie Dawson" width="500" height="500">
+           <img src="#" alt="Picture of Jamie Dawson" width="500" height="500" class="avatar">
 
            <h1>Jamie Dawson</h1>
 
-           <h2>Shopify Developer</h2>
+           <h2 class="role">Shopify Developer</h2>
 
            <hr>
 
@@ -24,17 +25,17 @@
 
             <p>Web <a href="#">jamiedawson.dev</a></p>
 
-            <p>Based <span>Portland, OR</span></p>
+            <p>Based <span class="location">Portland, OR</span></p>
 
-            <p>
-              <span>Liquid</span>
-              <span>Shopify</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-              <span>UX</span>
+            <p class="skills">
+              <span class="skill">Liquid</span>
+              <span class="skill">Shopify</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">UX</span>
             </p>
 
-            <button type="button">Hire Me &rarr;</button>
+            <button type="button" id="cta">Hire Me &rarr;</button>
            </div>
 
         </article> 
